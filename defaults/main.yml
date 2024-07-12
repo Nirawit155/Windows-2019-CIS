@@ -124,7 +124,7 @@ win19cis_rule_2_2_48: true
 win19cis_rule_2_3_1_1: true
 win19cis_rule_2_3_1_2: true
 win19cis_rule_2_3_1_3: true
-win19cis_rule_2_3_1_4: true
+win19cis_rule_2_3_1_4: false
 # Setting win19cis_rule_2_3_1_4 Control To True Will Break Ansible Connection
 # Setting win_skip_for_test: true -- will skip the controls here even if they are set to true.
 win19cis_rule_2_3_1_5: true
@@ -222,7 +222,7 @@ win19cis_rule_9_3_3: true
 win19cis_rule_9_3_4: true
 # Setting win19cis_rule_9_3_5 Control To True Will Break Ansible Connection
 # Setting win_skip_for_test: true -- will skip the controls here even if they are set to true.
-win19cis_rule_9_3_5: true
+win19cis_rule_9_3_5: false
 win19cis_rule_9_3_6: true
 win19cis_rule_9_3_7: true
 win19cis_rule_9_3_8: true
@@ -475,14 +475,15 @@ win19cis_rule_18_10_87_2: true
 # win19cis_rule_18_10_89_2_1
 # win19cis_rule_18_10_89_2_2
 # win19cis_rule_18_10_89_2_3
-win19cis_rule_18_10_89_1_1: true
-win19cis_rule_18_10_89_1_2: true
-win19cis_rule_18_10_89_1_3: true
-win19cis_rule_18_10_89_2_1: true
-win19cis_rule_18_10_89_2_2: true # This control will have to be set to Enabled (1) to allow for continued remote management via Ansible following machine restart. We have it set to skip for testing.
-win19cis_rule_18_10_89_2_3: true
+win19cis_rule_18_10_89_1_1: false
+win19cis_rule_18_10_89_1_2: false
+win19cis_rule_18_10_89_1_3: false
+win19cis_rule_18_10_89_2_1: false
+# This 18_10_89_2_2 control will have to be set to Enabled (1) to allow for continued remote management via Ansible following machine restart. We have it set to skip for testing.
+win19cis_rule_18_10_89_2_2: false
+win19cis_rule_18_10_89_2_3: false
 win19cis_rule_18_10_89_2_4: true
-win19cis_rule_18_10_90_1: true
+win19cis_rule_18_10_90_1: false
 # WINRM CONTROLS END #
 win19cis_rule_18_10_92_2_1: true
 win19cis_rule_18_10_93_1_1: true
