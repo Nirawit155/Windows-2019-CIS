@@ -42,7 +42,7 @@ min_ansible_version: "2.10.1"
 # win19cis_rule_18_10_89_2_2 - Disables Remote Server Management through WinRM
 # win19cis_rule_18_10_89_2_3 - Disables Service Ensure Allow unencrypted traffic is set to Disabled Control.
 # win19cis_rule_18_10_90_1 - Disables Remote Shell Access
-win_skip_for_test: false
+win_skip_for_test: true
 
 # Changes will be made that will require a system reboot.
 # The following option will allow whether or not to skip the reboot.
