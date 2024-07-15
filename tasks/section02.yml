@@ -828,8 +828,8 @@
             value: "{{ win19cis_admin_username }}"
         when: "'adminchangethis' not in win19cis_admin_username"
   when:
-      - win19cis_rule_2_3_1_4
-      - not win_skip_for_test
+      - win19cis_rule_2_3_1_4 and
+        not win_skip_for_test
   tags:
       - level1-domaincontroller
       - level1-memberserver
