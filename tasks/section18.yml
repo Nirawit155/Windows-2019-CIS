@@ -3477,7 +3477,7 @@
       type: dword
   when:
       - win19cis_rule_18_10_89_1_1 and
-        win_skip_for_test
+        not win_skip_for_test
   tags:
       - level1-domaincontroller
       - level1-memberserver
@@ -3509,7 +3509,7 @@
       type: dword
   when:
       - win19cis_rule_18_10_89_1_3 and
-        win_skip_for_test
+        not win_skip_for_test
   tags:
       - level1-domaincontroller
       - level1-memberserver
@@ -3525,7 +3525,7 @@
       type: dword
   when:
       - win19cis_rule_18_10_89_2_1 and
-        win_skip_for_test
+        not win_skip_for_test
   tags:
       - level1-domaincontroller
       - level1-memberserver
@@ -3542,7 +3542,7 @@
       type: dword
   when:
       - win19cis_rule_18_10_89_2_2 and
-        win_skip_for_test
+        not win_skip_for_test
   tags:
       - level2-domaincontroller
       - level2-memberserver
@@ -3590,7 +3590,7 @@
       type: dword
   when:
       - win19cis_rule_18_10_90_1 and
-        win_skip_for_test
+        not win_skip_for_test
   tags:
       - level2-domaincontroller
       - level2-memberserver
