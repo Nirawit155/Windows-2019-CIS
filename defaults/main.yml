@@ -482,7 +482,7 @@ win19cis_rule_18_10_89_2_1: false
 # This 18_10_89_2_2 control will have to be set to Enabled (1) to allow for continued remote management via Ansible following machine restart. We have it set to skip for testing.
 win19cis_rule_18_10_89_2_2: false
 win19cis_rule_18_10_89_2_3: false
-win19cis_rule_18_10_89_2_4: true
+win19cis_rule_18_10_89_2_4: false
 win19cis_rule_18_10_90_1: false
 # WINRM CONTROLS END #
 win19cis_rule_18_10_92_2_1: true
