@@ -612,25 +612,19 @@ win19cis_inactivity_timeout_seconds: 900
 # win19cis_legal_notice is the setting that specifies a text message that displays to users when they log on.
 # Configure this setting in a manner that is consistent with the security and operational requirements of your organization.
 win19cis_legal_notice: |
-    You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only.
+    ระบบคอมพิวเตอร์นี้เป็นทรัพย์สินของ Test Organization และมีไว้สำหรับการใช้งานทางธุรกิจที่ได้รับอนุญาตเท่านั้น ข้อมูลทั้งหมดที่จัดเก็บ ประมวลผล หรือส่งผ่านระบบนี้ถือเป็นความลับของบริษัท และได้รับการคุ้มครองตามกฎหมายและนโยบายความปลอดภัยขององค์กร
 
-    By using this IS (which includes any device attached to this IS), you consent to the following conditions:
+    เพื่อปกป้องทรัพย์สินทางปัญญาของบริษัท ข้อมูลลูกค้าที่เป็นความลับ และรักษาสภาพแวดล้อมการทำงานที่มีความปลอดภัย กิจกรรมทั้งหมดบนระบบนี้ รวมถึงการเข้าถึงเว็บไซต์ การใช้งานแอปพลิเคชัน การส่งอีเมล และการถ่ายโอนไฟล์ จะถูกตรวจสอบ บันทึก และวิเคราะห์อย่างต่อเนื่อง
 
-    -The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, COMSEC monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations.
+    การเข้าถึงหรือการใช้ระบบนี้โดยไม่ได้รับอนุญาต การพยายามเข้าถึงข้อมูลที่ไม่ได้รับอนุญาต การติดตั้งซอฟต์แวร์ที่ไม่ได้รับอนุญาต หรือการกระทำใดๆ ที่อาจเป็นอันตรายต่อความสมบูรณ์ของระบบหรือข้อมูล ถือเป็นการละเมิดนโยบายของบริษัทอย่างร้ายแรง และจะส่งผลให้มีการดำเนินการทางวินัย ซึ่งอาจรวมถึงการเลิกจ้าง การดำเนินคดีทางแพ่ง หรือทางอาญา
 
-    -At any time, the USG may inspect and seize data stored on this IS.
-
-    -Communications using, or data stored on, this IS are not private, are subject to routine monitoring, interception, and search, and may be disclosed or used for any USG-authorized purpose.
-
-    -This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy.
-
-    -Notwithstanding the above, using this IS does not constitute consent to PM, LE or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy, and their assistants. Such communications and work product are private and confidential. See User Agreement for details.
+    เราขอความร่วมมือจากคุณในการปฏิบัติตามนโยบายความปลอดภัยขององค์กรอย่างเคร่งครัด และรายงานกิจกรรมที่น่าสงสัยหรือการละเมิดความปลอดภัยที่อาจเกิดขึ้นให้กับฝ่าย IT ทันที การรักษาความปลอดภัยของระบบและข้อมูลของเราเป็นความรับผิดชอบร่วมกัน และความร่วมมือของคุณมีความสำคัญอย่างยิ่งต่อความสำเร็จของความพยายามของเรา
 
 # 2.3.7.5
 # win19cis_legal_notice_caption is the policy setting that specifies the text displayed in the title bar of the window that users see
 # when they log on to the system. Configure this setting in a manner that is consistent with the security and operational
 # requirements of your organization.
-win19cis_legal_notice_caption: "DoD Notice and Consent Banner"
+win19cis_legal_notice_caption: "ประกาศความปลอดภัยขององค์กร"
 
 # 2.3.7.6
 # win19cis_cached_logons_count is the number that is assigned to this policy setting and indicates the number of users whose
