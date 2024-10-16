@@ -1,7 +1,6 @@
 ---
 
 - hosts: all  # noqa: name[play]
-  become: true
   gather_facts: no # Disable fact gathering globally
 
   pre_tasks:
