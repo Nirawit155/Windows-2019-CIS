@@ -1,8 +1,20 @@
 ---
 
 - hosts: all  # noqa: name[play]
+  become: true
+  gather_facts: no # Disable fact gathering globally
 
-  gather_facts: true
+  pre_tasks:
+    - name: Ensure ansible_host, ansible_user, and ansible_password are defined
+      ansible.builtin.meta: end_host #stop all process of task
+      when: ansible_host is not defined or ansible_user is not defined or ansible_password is not defined      
+  
+    - name: Gather facts for hosts with valid credentials
+      ansible.builtin.setup: # gather_facts on but use bulitin
+      when:
+        - ansible_host is defined
+        - ansible_user is defined
+        - ansible_password is defined
 
   roles:
       - role: "{{ playbook_dir }}"
